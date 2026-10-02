@@ -10,7 +10,7 @@ function showModal(message) {
   modal.style.cssText = `position: fixed; inset: 0; background: rgba(0,0,0,0.6); display: flex; justify-content: center; align-items: center; z-index: 9999999;`;
 
   const box = document.createElement('div');
-  box.style.cssText = `background-color: #6f057a; z-index: 9999999; box-shadow: inset 0 -0.365vw #61056b, 3px 3px 15px rgba(0,0,0,0.6); padding: 20px; border-radius: 8px; text-align: center; min-width: 280px; color: white; font-family: 'Pixelify Sans', sans-serif; font-size: 18px;`;
+  box.style.cssText = `background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%); box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7); z-index: 9999999; padding: 20px; border-radius: 8px; text-align: center; min-width: 280px; color: white; font-family: 'Pixelify Sans', sans-serif; font-size: 18px;`;
 
   box.innerText = message;
   modal.appendChild(box);
@@ -33,7 +33,7 @@ function confirmPurchase(listing) {
     overlay.style.cssText = `position: fixed; inset: 0; background: rgba(0,0,0,0.7); display: flex; justify-content: center; align-items: center; z-index: 99999;`;
 
     const modalBox = document.createElement('div');
-    modalBox.style.cssText = `padding: 25px; width: 440px; border-radius: 10px; text-align: center; color: white; font-family: 'Pixelify Sans', sans-serif; background: #5e046e; box-shadow: inset 0 -0.245vw #53055c, 3px 3px 15px rgba(0, 0, 0, 0.6);`;
+    modalBox.style.cssText = `padding: 25px; width: 440px; border-radius: 10px; text-align: center; color: white; font-family: 'Pixelify Sans', sans-serif; background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%); box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);`;
 
     modalBox.innerHTML = `
       <h3 style="font-size: 26px; margin: 0; line-height: 1.2;">
@@ -273,7 +273,7 @@ function openListingsModal({ blookName, blooksListings }) {
   overlay.style.cssText = `position: fixed; inset: 0; background: rgba(0,0,0,0.65); display:flex; align-items:center; justify-content:center; z-index: 99999; padding: 16px;`;
 
   const box = document.createElement('div');
-  box.style.cssText = `width: 760px; max-width: 96vw; background: #5e046e; border-radius: 14px; box-shadow: inset 0 -0.365vw #53055c, 3px 3px 15px rgba(0,0,0,0.6); padding: 18px; color:#fff;`;
+  box.style.cssText = `width: 760px; max-width: 96vw; background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%); box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7); padding: 18px; color:#fff;`;
 
   const listingsSorted = [...(blooksListings || [])].sort((a, c) => Number(a.price ?? 0) - Number(c.price ?? 0));
 
@@ -364,7 +364,7 @@ function initBazaar() {
   style.textContent = `
     .modal { display: none; position: fixed; z-index: 2000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); cursor: pointer; align-items: center; justify-content: center; }
     .modal.show { display: flex !important; }
-    .modal-content { background: #5e046e; padding: 25px; width: 900px; max-width: 90%; color: white; border-radius: 10px; text-align: center; cursor: default; box-shadow: inset 0 -0.365vw #53055c, 3px 3px 15px rgba(0, 0, 0, 0.6); }
+    .modal-content { background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%); box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7); padding: 25px; width: 900px; max-width: 90%; color: white; border-radius: 10px; text-align: center; cursor: default; }
     .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #53055c; padding-bottom: 10px; }
     .modal-header h2 { margin: 0; font-family: 'Pixelify Sans', sans-serif; font-size: 28px; }
     .close-icon { font-size: 0px; cursor: pointer; color: #ff0000; }
@@ -375,7 +375,7 @@ function initBazaar() {
     .modal-listing-wrapper { display: flex; flex-direction: column; gap: 8px; align-items: center; }
     .modal-btn { flex: 1; height: 52px; border: none; border-radius: 10px; font-family: 'Pixelify Sans', sans-serif; font-size: 22px; font-weight: 800; cursor: pointer; }
     .modal-btn-primary { background: #3aab3a; color: white; box-shadow: inset 0 -0.265vw rgba(0, 0, 0, 0.25), 3px 3px 14px rgba(0, 0, 0, 0.5); }
-    .modal-btn-secondary { background: #5e046e; color: white; box-shadow: inset 0 -0.265vw #53055c, 3px 3px 14px rgba(0, 0, 0, 0.5); border: 2px solid rgba(255, 255, 255, 0.85); }
+    .modal-btn-secondary { background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%); box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7); border: 2px solid rgba(255, 255, 255, 0.85); color: white; }
     .modal-btn-primary:hover, .modal-btn.modal-btn-secondary:hover { filter: brightness(1.08); }
   `;
 

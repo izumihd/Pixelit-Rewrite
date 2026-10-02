@@ -21,8 +21,8 @@ const emojiButton = document.querySelector(".emojiContainer");
 
     const modal = document.createElement("div");
     modal.style.cssText = `
-      background: #5e046e;
-      box-shadow: inset 0 -0.365vw #53055c, 3px 3px 15px rgba(0, 0, 0, 0.6);
+      background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%);
+      box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);
       padding: 40px; border-radius: 10px; width: 600px;
       color: #fff; font-family: 'Pixelify Sans', sans-serif;
       text-align: center;
@@ -52,9 +52,10 @@ const emojiButton = document.querySelector(".emojiContainer");
       ruleDiv.textContent = r;
       ruleDiv.style.cssText = `
         font-size: 20px; margin: 12px 0; padding: 12px;
-        background: #6f057a; border-radius: 6px;
+        border-radius: 6px;
         border-left: 3px solid #50505074; text-align: left;
-        box-shadow: inset 0 -0.265vw #570066, 3px 3px 15px rgba(0, 0, 0, 0.3);
+        background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%);
+        box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);
       `;
       rulesContainer.appendChild(ruleDiv);
     });
@@ -140,8 +141,8 @@ if (!emojiPopupEl) {
     bottom: 85px;
     right: 20px;
     width: 240px;
-    background-color: #55145c;
-    box-shadow: inset 0 -0.365vw #410b47, 3px 3px 15px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%);
+    box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);
     border-radius: 12px;
     display: none;
     flex-direction: column;
@@ -486,8 +487,8 @@ function openEditMessageModal(messageId, currentText) {
 
   const modalContent = document.createElement('div');
   modalContent.style.cssText = `
-    background-color: #6f057a;
-    box-shadow: inset 0 -0.365vw #61056b, 3px 3px 15px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%);
+    box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 5px;
     text-align: center;

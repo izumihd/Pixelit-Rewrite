@@ -705,8 +705,8 @@ function showModal(message) {
 
   const box = document.createElement("div");
   box.style.cssText = `
-    background-color: #6f057a;
-    box-shadow: inset 0 -0.365vw #61056b, 3px 3px 15px rgba(0,0,0,0.6);
+    background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%);
+    box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 8px;
     text-align: center;

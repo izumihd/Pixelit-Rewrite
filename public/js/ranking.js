@@ -161,13 +161,13 @@ function renderLeaderboard(users) {
       gap: 10px;
       padding: 8px 12px;
       margin: 5px auto;
-      background: #6f057a;
       border-radius: 8px;
       color: white;
       font-family: Pixelify Sans;
       font-size: 15px;
       box-sizing: border-box;
-      box-shadow: inset 0 -0.225vw #570066, 3px 3px 15px rgba(0,0,0,0.6);
+      background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%); 
+      box-shadow: inset 0 -0.235vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);    
     `;
 
     div.innerHTML = `

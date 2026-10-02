@@ -8,7 +8,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #6f0083;
+  background: linear-gradient(135deg, #43105e 0%, #1a0524 100%);
   color: white;
   font-family: Pixelify Sans;
   overflow: hidden;

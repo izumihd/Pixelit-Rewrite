@@ -47,8 +47,8 @@ function showModal(message) {
 
   const box = document.createElement("div");
   box.style.cssText = `
-    background-color: #6f057a;
-    box-shadow: inset 0 -0.365vw #61056b, 3px 3px 15px rgba(0,0,0,0.6);
+    background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%);
+    box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -95,8 +95,8 @@ function showClaimModal(reward) {
 
   const box = document.createElement("div");
   box.style.cssText = `
-    background-color: #6f057a;
-    box-shadow: inset 0 -0.365vw #61056b, 3px 3px 15px rgba(0,0,0,0.6);
+    background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%);
+    box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -321,8 +321,8 @@ inboxButton && inboxButton.addEventListener("click", async () => {
   const box = document.createElement("div");
 
   box.style.cssText = `
-    background-color: #6f057a;
-    box-shadow: inset 0 -0.365vw #61056b, 3px 3px 15px rgba(0,0,0,0.6);
+    background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%);
+    box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -772,8 +772,8 @@ async function openBannersModal() {
 
     const panel = document.createElement("div");
     panel.style.cssText = `
-      background: #5e046e;
-      box-shadow: inset 0 -0.365vw #53055c, 3px 3px 15px rgba(0,0,0,0.6);
+      background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%);
+      box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);
       padding: 18px;
       border-radius: 8px;
       text-align: center;
@@ -856,8 +856,8 @@ async function openPfpModal() {
 
     const panel = document.createElement("div");
     panel.style.cssText = `
-      background: #5e046e;
-      box-shadow: inset 0 -0.365vw #53055c, 3px 3px 15px rgba(0,0,0,0.6);
+      background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%);
+      box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);
       padding: 18px;
       border-radius: 8px;
       text-align: center;
@@ -1022,8 +1022,8 @@ function openViewUserPopup() {
   });
 
   const modalContent = createElement('div', {}, {
-    backgroundColor: '#6f057a',
-    boxShadow: 'inset 0 -0.365vw #61056b, 3px 3px 15px rgba(0, 0, 0, 0.6)',
+    background: 'linear-gradient(135deg, #5b0d6b 0%, #290433 100%)',
+    boxShadow: 'inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7)',
     padding: '20px',
     borderRadius: '8px',
     textAlign: 'center',
@@ -1340,8 +1340,8 @@ function openViewUserPopup() {
           });
 
           const box = createElement('div', {}, {
-            backgroundColor: '#6f057a',
-            boxShadow: 'inset 0 -0.365vw #61056b, 3px 3px 15px rgba(0, 0, 0, 0.6)',
+            background: 'linear-gradient(135deg, #5b0d6b 0%, #290433 100%)',
+            boxShadow: 'inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7)',
             padding: '20px',
             borderRadius: '8px',
             textAlign: 'center',

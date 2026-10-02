@@ -111,8 +111,8 @@ function createPasswordChangeModal() {
     const modalContent = document.createElement('div');
     modalContent.className = 'password-change-modal-content';
     modalContent.style.cssText = `
-        background-color: #6f057a;
-        box-shadow: inset 0 -0.365vw #61056b, 3px 3px 15px rgba(0, 0, 0, 0.6);
+        background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%);
+        box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);
         padding: 20px;
         border-radius: 5px;
         text-align: center;
@@ -256,9 +256,8 @@ document.getElementById("changeUsername").addEventListener("click", function () 
     const modalContent = document.createElement("div");
 
     modalContent.style.cssText = `
-        background-color: #6f057a;
-        box-shadow: inset 0 -0.365vw #61056b,
-                    3px 3px 15px rgba(0,0,0,0.6);
+        background: linear-gradient(135deg, #5b0d6b 0%, #290433 100%);
+        box-shadow: inset 0 -0.365vw #1e0226, 3px 3px 15px rgba(0, 0, 0, 0.7);
         padding: 20px;
         border-radius: 5px;
         text-align: center;

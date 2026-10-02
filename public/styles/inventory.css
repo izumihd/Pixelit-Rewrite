@@ -13,7 +13,7 @@ body {
 body {
   font-family: 'Pixelify Sans', sans-serif;
   color: white;
-  background: #6f0083;
+  background: linear-gradient(135deg, #43105e 0%, #1a0524 100%);
   overflow-y: auto;
 }
 
